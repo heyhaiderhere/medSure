@@ -68,7 +68,10 @@ ol > li {
   color: white;
   height: 100vh;
   width: 100vw;
-  /* background-color: #2295e5; */
+  background: rgba(0, 0, 0, 0.7);
+  background-image: url(assets/background.jpg);
+  background-size: cover;
+  background-blend-mode: darken;
   display: flex;
   flex-direction: column;
   align-items: center;
